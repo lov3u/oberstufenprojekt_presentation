@@ -156,5 +156,24 @@ Use for:
     line-height:        36px;
     letter-spacing:     -1px;
 }
+/* White/Blackout*/
+#impress-bwout-overlay{
+	position: fixed;
+	opacity:0;
+	top:0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	z-index: 2999;
+	-webkit-transition: opacity 0.5s ease 0s;
+	-moz-transition: opacity 0.5s ease 0s;
+	-ms-transition: opacity 0.5s ease 0s;
+	-o-transition: opacity 0.5s ease 0s;
+	transition: opacity 0.5s ease 0s;
+}
+#impress-bwout-overlay.impress-bwout-transition {
+  opacity:1;
+}
+
 
 /*TODO: Picture Box which representates one application, its icon and a short description*/
