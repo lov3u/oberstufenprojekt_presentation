@@ -48,8 +48,11 @@
 	<div id="end" class="step slide" data-x="2500" data-y="-1300" data-rotate-y="13">
 	  Baaar
   </div>
+    
   <!-- Now no more slides, instead this visual clicky color thingy until the next presenters topics come up-->
-      </div>
+    
+  <div id="overview" class="step" data-x="3000" data-y="0" data-scale="10"></div>
+    </div>
     </div>
     <script src="js/impress.js"></script>
     <script>impress().init();</script>
