@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024">
+    <title>
+      Oberstufenprojekt GSO-Köln | Projekt: Bewertungssoftware der Oberstufenprojekte | Von Sabrina Appel, Sebastian Ritter, Alexander Deter und Kai Oliver Quambusch
+    </title>
+
+    <meta name="description" content="Abschlusspräsentation zum Oberstufenprojekt der FIA01 (2012). Der Projektauftrag war das erstellen einer Bewertungssoftware für die Oberstufenprojekte.">
+    <meta name="author" content="Sabrina Appel, Sebastian Ritter, Alexander Deter und Kai Oliver Quambusch">
+
+    <!-- Use sexy font from googleapis and embed own stylesheet -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />                                         
+    <link href="css/style.css.new" rel="stylesheet" />
+  </head>
+
+  <body class="impress-not-supported">
+    <div id="impress-wrapper">
+      <div id="impress">
+	<div id="start" class="step slide" data-x="-1000" data-y="-1300" data-rotate-x="-70" data-rotate-y="15" data-scale="2">
+	  Testfolie <b>foo</b> Bar
+	</div>
+
+	<div id="end" class="step slide" data-x="-900" data-y="-1000" data-rotate-x"-40" data-rotate-y="13">
+	  Baaar
+	</div>
+      </div>
+    </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+    </body>
+
+</html>
