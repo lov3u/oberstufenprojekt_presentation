@@ -28,7 +28,7 @@ body {
     line-height: 1;
 }
 ol, ul {
-    list-style: none;
+    list-style: disc;
 }
 blockquote, q {
     quotes: none;
@@ -156,6 +156,24 @@ Use for:
     line-height:        36px;
     letter-spacing:     -1px;
 }
+
+.agenda-layout {
+    margin-left:        50px;
+}
+
+.agenda-layout-tiny {
+    margin-left:        60px;
+    font-size:          18px;
+    line-height:        19px;
+}
+
+
+.bullet-point-name {
+    margin-left:        20px;
+    font-size:          15px;
+    line-height:        16px;
+}
+
 /* White/Blackout*/
 #impress-bwout-overlay{
 	position: fixed;
