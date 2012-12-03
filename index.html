@@ -21,27 +21,59 @@
       <div id="impress">
     <div id="start" class="step slide" data-x="-4500" data-y="-1300" data-rotate-x="-70" data-rotate-y="15" data-scale="2">
         Abschlusspräsentation des <b>Oberstufenprojekts</b><br>Bewertungssoftware der Oberstufenprojekte
-        <br><br><br><br>
-        Von Sabrina Appel, Sebastian Ritter, Alexander Deter und Kai Oliver Quambusch
+        <div style="margin-top: 500px;">Von Sabrina Appel, Sebastian Ritter, Alexander Deter und Kai Oliver Quambusch</div>
 	</div>
 
-    <div id="agenda" class="step slide" data-x="-1000" data-y="-1300" data-rotate-x="-40" data-scale="2">
+    <div id="agenda_1" class="step slide" data-x="-1000" data-y="-1300" data-rotate-x="-40" data-scale="2">
         Agenda:
         <br>
-        <br><b>Sebastian Ritter</b>
-        <br><span style="margin-left: 50px;">Einleitung</span>
-        <br><span style="margin-left: 50px;">Projektabschluss</span>
-        <br><span style="margin-left: 50px;">Ende</span>
         <br>
-        <br><b>Sabrina Appel</b>
-        <br><span style="margin-left: 50px;">Projektdefinition</span>
-        <br>
-        <br><b>Kai Oliver Quambusch</b>
-        <br><span style="margin-left: 50px;">Projektablauf</span>
-        <br>
-        <br><b>Alexander Deter</b>
-        <br><span style="margin-left: 50px;">Projektplanung</span>
+        <div class="agenda-layout">
+            <ul>
+                <li>Einleitung</li>
+                <div class="bullet-point-name">Sebastian Ritter</div>
+                <!-- List here the next steps-->
+                <br>
+                <li>Projektdefinition</li>
+                <div class="bullet-point-name">Sabrina Appel</div>
+                <ul class="agenda-layout-tiny">
+                    <!-- TODO: insert hyperlinks to pagemarker -->
+                    <li>Projektumfeld</li>
+                    <li>Ausgangslage</li>
+                    <li>Projektbeschreibung</li>
+                    <li>Projekt- und organisatorische Schnittstellen</li>
+                    <li>Technische Schnittstellen</li>
+                </ul>
+                <!-- List here the next steps-->
+                <br>
+                <br>
+                <!-- TODO: We need more slides for agenda! -->
+            </ul>
+        </div>
         
+    </div>
+
+    <div id="agenda_2" class="step slide" data-x="-1000" data-y="-2800" data-rotate-x="-40" data-scale="2">
+        Agenda (fortsetzung):
+        <div class="agenda-layout">
+            <ul>
+                <li>Projektplanung</li>
+                <div class="bullet-point-name">Alexander Deter</div>
+                <!-- List here the next steps-->
+                <br>
+                <li>Projektablauf</li>
+                <div class="bullet-point-name">Kai Oliver Quambusch</div>
+                <!-- List here the next steps-->
+                <br>
+                <li>Projektabschluss</li>
+                <div class="bullet-point-name">Sebastian Ritter</div>
+                <!-- List here the next steps-->
+                <br>
+                <li>Ende</li>
+                <div class="bullet-point-name">Sebastian Ritter</div>
+                <!-- List here the next steps-->
+            </ul>
+        </div>
     </div>
 
     <!-- So this is where our presentation really starts, first the introduction of seb -->
@@ -59,7 +91,7 @@
     <script>
         impress().init();
         console().init();
-        console().open();
+        <!-- console().open(); -->
     </script>
     </body>
 
