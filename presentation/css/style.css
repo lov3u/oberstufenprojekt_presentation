@@ -193,6 +193,15 @@ Use for:
     right:      10px;
     bottom:     -1px;
 }
+
+.agenda-footer {
+    position:   absolute;
+    bottom:     -35px;
+    font-color: #FFFFFF;
+    font-size:  18px;
+    left:       5px;
+}
+
 /* White/Blackout*/
 #impress-bwout-overlay{
 	position: fixed;
@@ -205,7 +214,7 @@ Use for:
 	-webkit-transition: opacity 0.5s ease 0s;
 	-moz-transition: opacity 0.5s ease 0s;
 	-ms-transition: opacity 0.5s ease 0s;
-	-o-transition: opacity 0.5s ease 0s;
+    -o-transition: opacity 0.5s ease 0s;
 	transition: opacity 0.5s ease 0s;
 }
 #impress-bwout-overlay.impress-bwout-transition {
