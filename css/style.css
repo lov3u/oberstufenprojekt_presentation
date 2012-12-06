@@ -157,6 +157,11 @@ Use for:
     letter-spacing:     -1px;
 }
 
+.inslide-text{
+    font-size:          22px;
+    line-height:        25px;
+}
+
 .agenda-layout {
     margin-left:        50px;
 }
@@ -167,7 +172,11 @@ Use for:
     line-height:        19px;
 }
 
-
+.agenda-layout-tiny-inner {
+    margin-left:        20px;
+    font-size:          16px;
+    line-height:        17px;
+}
 .bullet-point-name {
     margin-left:        20px;
     font-size:          15px;
@@ -184,7 +193,7 @@ Use for:
     font-size:  17px;
     position:   absolute;
     bottom:     -1px;
-    right:      150px;
+    right:      21.5%; /*150px*/
 }
 
 .pagecount {
@@ -193,6 +202,34 @@ Use for:
     right:      10px;
     bottom:     -1px;
 }
+
+.agenda-footer {
+    position:   absolute;
+    bottom:     -35px;
+    color:      #FFFFFF;
+    font-size:  18px;
+    center:     0px;
+}
+
+.agenda-footer-hl {
+    color:      #2491FF;
+}
+
+.slide-topic {
+    margin-top:     280px;
+    margin-left:    180px;
+    font-size:      90px;
+}
+
+.slide-text {
+    color: #FFF;
+}
+
+.label-disp {
+    margin-right:    120px;
+    margin-left:     65px;
+}
+
 /* White/Blackout*/
 #impress-bwout-overlay{
 	position: fixed;
@@ -205,7 +242,7 @@ Use for:
 	-webkit-transition: opacity 0.5s ease 0s;
 	-moz-transition: opacity 0.5s ease 0s;
 	-ms-transition: opacity 0.5s ease 0s;
-	-o-transition: opacity 0.5s ease 0s;
+    -o-transition: opacity 0.5s ease 0s;
 	transition: opacity 0.5s ease 0s;
 }
 #impress-bwout-overlay.impress-bwout-transition {
