@@ -1,0 +1,121 @@
+<!doctype html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024">
+    <title>
+      Oberstufenprojekt GSO-Köln | Projekt: Bewertungssoftware der Oberstufenprojekte | Von Sabrina Appel, Sebastian Ritter, Alexander Deter und Kai Oliver Quambusch
+    </title>
+
+    <meta name="description" content="Abschlusspräsentation zum Oberstufenprojekt der FIA01 (2012). Der Projektauftrag war das erstellen einer Bewertungssoftware für die Oberstufenprojekte.">
+    <meta name="author" content="Sabrina Appel, Sebastian Ritter, Alexander Deter und Kai Oliver Quambusch">
+
+    <!-- Use sexy font from googleapis and embed own stylesheet -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />                                         
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="impress-not-supported" style="background-image: url('img/background.jpg');background-size: 100%;">
+    <div id="impress-wrapper">
+        <div id="impress">
+    <div id="start" class="step slide" data-x="-4500" data-y="-1300" data-rotate-x="-70" data-rotate-y="15" data-scale="2">
+        Abschlusspräsentation des <b>Oberstufenprojekts</b><br>Bewertungssoftware der Oberstufenprojekte
+        <img style="margin-top: 30px;margin-left: 70px;" src="img/slide_1-cover.png"></img>
+        
+        <div class="footer-names">Sabrina Appel, Sebastian Ritter, Alexander Deter, Kai Oliver Quambusch</div>
+        <div class="pagecount">1</div>
+        <img class="gso-logo" src="img/gso-logo.png"></img>
+        <div class="agenda-footer"> [Foo - Bar - OLOLOL - WTF]</div>
+	</div>
+
+    <div id="agenda_1" class="step slide" data-x="-1000" data-y="-1300" data-rotate-x="-40" data-scale="2">
+        <b>Agenda:</b>
+        <br>
+        <br>
+        <div class="agenda-layout">
+            <ul>
+                <li>Einleitung und Begrüßung</li>
+                <div class="bullet-point-name">Sebastian Ritter</div>
+                <!-- List here the next steps-->
+                <br>
+                <li>Initialisierung</li>
+                <div class="bullet-point-name">Sabrina Appel</div>
+                <ul class="agenda-layout-tiny">
+                    <!-- TODO: insert hyperlinks to pagemarker -->
+                    <li>Projektumfeld</li>
+                    <li>Ausgangslage</li>
+                    <li style="margin-left: 15px; font-size: 13px;">Projektziele</li>
+                </ul>
+                <!-- List here the next steps-->
+                <br>
+                <li>Durchführung</li>
+                <div class="bullet-point-name">Alexander Deter und Kai Oliver Quambusch</div>
+                <ul class="agenda-layout-tiny">
+                    <li>Vorgehensmodell</li>
+                    <li>Zeitplanung</li>
+                    <li>Meilensteine</li>
+                    <li>Qualitätssicherung</li>
+                    <li>Kostenanalyse</li>
+                </ul>
+                <!-- List here the next steps-->
+                <br>
+                <br>
+                <!-- TODO: We need more slides for agenda! -->
+            </ul>
+        </div>
+        
+        <div class="footer-names">Sabrina Appel, Sebastian Ritter, Alexander Deter, Kai Oliver Quambusch</div>
+        <div class="pagecount">2</div>
+        <img class="gso-logo" src="img/gso-logo.png"></img>
+    </div>
+
+    <div id="agenda_2" class="step slide" data-x="-1000" data-y="-2900" data-rotate-x="-40" data-scale="2">
+        <b>Agenda (fortsetzung):</b>
+        <div class="agenda-layout">
+            <br>
+            <ul>
+                <li>Entwicklung der Software</li>
+                <div class="bullet-point-name">Kai Oliver Quambusch</div>
+                <ul class="agenda-layout-tiny">
+                    <li>Entwurf</li>
+                    <li>Implementierung</li>
+                </ul>
+                <br>
+                <li>Abschluss</li>
+                <div class="bullet-point-name">Sebastian Ritter</div>
+                <ul class="agenda-layout-tiny">
+                    <li>Soll-Ist-Analyse</li>
+                    <li>Wirtschaftlichkeit</li>
+                    <li>Fazit</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="footer-names">Sabrina Appel, Sebastian Ritter, Alexander Deter, Kai Oliver Quambusch</div>
+        <div class="pagecount">3</div>
+        <img class="gso-logo" src="img/gso-logo.png"></img>
+    </div>
+
+    <!-- So this is where our presentation really starts, first the introduction of seb -->
+	<div id="einleitung" class="step slide" data-x="2500" data-y="-1300" data-rotate-y="13">
+        <b>Einleitung</b>
+        <div class="footer-names">Sabrina Appel, Sebastian Ritter, Alexander Deter, Kai Oliver Quambusch</div>
+        <div class="pagecount">4</div>
+        <img class="gso-logo" src="img/gso-logo.png"></img>
+  </div>
+    
+  <!-- Now no more slides, instead this visual clicky color thingy until the next presenters topics come up-->
+    
+  <div id="overview" class="step" data-x="3000" data-y="0" data-scale="10"></div>
+    </div>
+    </div>
+    <script src="js/impress.js"></script>
+    <script src="js/impressConsole.js"></script>
+    <script>
+        impress().init();
+        console().init();
+        console().open();
+    </script>
+    </body>
+
+</html>
