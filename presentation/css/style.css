@@ -172,7 +172,11 @@ Use for:
     line-height:        19px;
 }
 
-
+.agenda-layout-tiny-inner {
+    margin-left:        20px;
+    font-size:          16px;
+    line-height:        17px;
+}
 .bullet-point-name {
     margin-left:        20px;
     font-size:          15px;
