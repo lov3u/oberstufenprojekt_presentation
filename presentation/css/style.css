@@ -157,6 +157,11 @@ Use for:
     letter-spacing:     -1px;
 }
 
+.inslide-text{
+    font-size:          22px;
+    line-height:        25px;
+}
+
 .agenda-layout {
     margin-left:        50px;
 }
@@ -184,7 +189,7 @@ Use for:
     font-size:  17px;
     position:   absolute;
     bottom:     -1px;
-    right:      150px;
+    right:      21.5%; /*150px*/
 }
 
 .pagecount {
@@ -197,9 +202,28 @@ Use for:
 .agenda-footer {
     position:   absolute;
     bottom:     -35px;
-    font-color: #FFFFFF;
+    color:      #FFFFFF;
     font-size:  18px;
-    left:       5px;
+    center:     0px;
+}
+
+.agenda-footer-hl {
+    color:      #2491FF;
+}
+
+.slide-topic {
+    margin-top:     280px;
+    margin-left:    180px;
+    font-size:      90px;
+}
+
+.slide-text {
+    color: #FFF;
+}
+
+.label-disp {
+    margin-right:    120px;
+    margin-left:     65px;
 }
 
 /* White/Blackout*/
